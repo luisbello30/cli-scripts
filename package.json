@@ -1,6 +1,6 @@
 {
   "name": "cli-scripts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cli run script ",
   "main": "index.js",
   "type": "module",
