@@ -1,0 +1,26 @@
+# cli-scripts
+.cli-script/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# Optional npm cache directory
+.npm
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# General
+.DS_Store
+
+# 8v
+coverage/

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Cli run script ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/luisbello30/cli-scripts.git"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^8.2.2",
+    "nanospinner": "^1.1.0",
+    "normalize-package-data": "^4.0.0",
+    "parse-json": "^6.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2"
   }
 }
